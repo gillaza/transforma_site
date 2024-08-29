@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*fontes*/
+*{
+    font-family: Poppins;
+}
+body{
+    margin: 0;
+    background-color: #F7F5F9;
+    padding: 0;
+    overflow-x: hidden;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    text-decoration: none;
+    gap: 30px;
+}
+nav a {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+/*SECTION 1*/
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+}
+h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.info-left{
+    max-width: 700px;
+}
+.time{
+    transform: translateY(40px);
+    object-fit: fill;
+    width: 800px;
+}
+.info-left img{
+    width: 500px;
+}
+.saiba{
+    border-radius: 14px;
+    padding: 10px 20px;
+    font-size: medium;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-color: #FF914D;
+}
+
+/*SECTION 2*/
+h2{
+    font-size: x-large;
+    font-weight: 500;
+}
+.frase{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: #F2F0F4;
+    align-items: center;
+    padding: 2% 15%;
+    transform: translateY(15px);
+    border-radius: 24px;
+}
+.frase strong{
+    color: #0097B2;
+    text-decoration: underline;
+}
+h4, h5{
+    font-weight: 400;
+    font-size: x-large;
+}
+/*SECTION 3*/
+.dif{
+    width: 100%;
+    background-color: #0097B2;
+    color: #fff;
+    padding: 2%;
+}
+.dif-text{
+    font-size: 18px;
+    max-width: 600px;
+}
+h3{
+    font-size: 42px;
+    font-weight: 400;
+}
+.dif-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+/*SECTION 4*/
+.bio{
+    align-self: center;
+    display: flex;
+    z-index: 2;
+    padding: 10%;
+    padding-bottom: 0;
+}
+
+.bio img{
+    width: 50%;
+    object-fit: cover;
+}
+/*SECTION 5*/
+.funcio{
+    transform: translateY(-310px);
+    background: linear-gradient(60deg,#F7F651, #EDB96A, #85C06E);
+    padding: 5%;
+    display: flex;
+    margin-bottom: 0;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
+    color: #FFF;
+}
+#intersect{
+    z-index: 1;
+    transform: translateY(-100px);
+}
+.cards{
+    display: flex;
+    gap: 3%;
+}
+.card1, .card2, .card3{
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    border-radius: 24px;
+    color: #000;
+}
+
+.logowhite{
+    margin-top: 7%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*FOOTER*/
+footer{
+    padding: 3%;
+    display: flex;
+    transform: translateY(-310px);
+    flex-direction: column;
+    gap: 20px;
+    color: #FFF;
+    background-color: #0097B2;
+    margin-top: 0;
+}
+.instabtn{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#insta{
+    width: 30px;
+}

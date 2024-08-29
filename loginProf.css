@@ -1,0 +1,202 @@
+.backgroundcolor {
+    position: absolute;
+    top: 0px;
+    left: 709px;
+    background-color: #edb96a;
+    width: 731px;
+    height: 900px;
+}
+.blocointeract-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+    background-color: #fff;
+    width: 539px;
+    height: 741px;
+}
+.bem-vindo-ao-prof {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.bem-vindo-ao-prof-wrapper {
+    position: absolute;
+    top: 55px;
+    left: 44px;
+    width: 177px;
+    height: 23px;
+    font-size: 20px;
+    font-family: Roboto;
+}
+.enter-your-username {
+    position: absolute;
+    top: -2.17%;
+    left: 0%;
+}
+.instance-child {
+    position: absolute;
+    height: 61.96%;
+    width: 100%;
+    top: 38.04%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 9px;
+    background-color: #fff;
+    border: 1px solid #4285f4;
+    box-sizing: border-box;
+}
+.username-or-email {
+    position: absolute;
+    height: 20.65%;
+    width: 66.96%;
+    top: 58.7%;
+    left: 5.54%;
+    font-size: 14px;
+    font-weight: 300;
+    color: #808080;
+    display: inline-block;
+}
+.enter-your-username-or-email-a-parent {
+    position: absolute;
+    top: 202px;
+    left: 44px;
+    width: 451px;
+    height: 92px;
+}
+.senha-child {
+    position: absolute;
+    height: 61.96%;
+    width: 100%;
+    top: 38.04%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 9px;
+    background-color: #fff;
+    border: 1px solid #adadad;
+    box-sizing: border-box;
+}
+.senha {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 451px;
+    height: 92px;
+}
+.esqueceu-a-senha {
+    position: absolute;
+    top: 105px;
+    left: 315px;
+    font-size: 14px;
+    color: #64471b;
+}
+.group-senha {
+    position: absolute;
+    top: 332px;
+    left: 44px;
+    width: 451px;
+    height: 126px;
+}
+.btn-entrar-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+    border-radius: 12px;
+    background-color: #edb96a;
+    width: 451px;
+    height: 54px;
+}
+.entrar {
+    position: absolute;
+    top: 15px;
+    left: 198px;
+    font-weight: 500;
+    display: inline-block;
+    width: 56px;
+}
+.btn-entrar {
+    position: absolute;
+    top: 583px;
+    left: 44px;
+    width: 451px;
+    height: 54px;
+    color: #fff;
+}
+.blocointeract {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 539px;
+    height: 741px;
+}
+.eye-1-icon {
+    position: absolute;
+    top: 386px;
+    left: 454px;
+    width: 22px;
+    height: 19px;
+    overflow: hidden;
+}
+.login {
+    position: absolute;
+    top: 85px;
+    left: 44px;
+    font-size: 55px;
+    font-weight: 500;
+}
+.logininteract {
+    position: absolute;
+    top: 79px;
+    left: 450px;
+    width: 539px;
+    height: 741px;
+}
+
+.logo-iconP {
+    position: relative;
+    top: 550px;
+    left: 52px;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.logo-iconR {
+    position: relative;
+    top: 383px;
+    right: 10%;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.logo-iconO {
+    position: relative;
+    top: 225px;
+    left: 16%;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.logo-iconF {
+    position: relative;
+    top: -10px;
+    left: -24%;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.login-profs {
+    width: 100%;
+    position: relative;
+    background-color: #fffef9;
+    height: 900px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    font-family: Poppins;
+}
+

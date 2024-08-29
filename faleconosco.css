@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*fontes*/
+*{
+    font-family: Poppins;
+}
+body {
+    margin: 0;
+    background-color: #F7F5F9;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav {
+    display: flex;
+    text-decoration: none;
+    gap: 30px;
+  }
+  
+  nav a {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  /*form-header*/
+  .form-header {
+    padding: 2%;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 64px;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #828282;
+    margin-bottom: 0;
+    font-weight: 300;
+  }
+  
+  /*FORM*/
+  form {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  input,
+  textarea {
+    padding: 10px 20px;
+    border-radius: 14px;
+    font-size: 16px;
+    border: 1px solid #828282; /* Ajuste de cor para melhor visibilidade */
+  }
+  
+  button {
+    margin-top: 2%;
+    background-color: #EDB96A;
+    border: none;
+    width: 100%;
+    padding: 2%;
+    font-size: medium;
+    border-radius: 14px;
+    cursor: pointer; 
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row; /* Mantém o alinhamento em linha */
+    gap: 20px; /* Adiciona um espaço entre o formulário e a imagem */
+    align-items: flex-start; /* Alinha o início dos itens */
+    justify-content: space-between; /* Espalha os itens uniformemente */
+  }
+  
+  .form-container {
+    flex: 1; /* Permite que o formulário ocupe espaço flexível */
+  }
+  
+  .img {
+    flex: 1; /* Permite que a imagem ocupe espaço flexível */
+    align-self: end;
+  }
+  
+  .img img {
+    max-width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  section{
+    margin: 0;
+  }
+  /*FOOTER*/
+  footer {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #FFF;
+    background-color: #0097B2;
+    margin-top: 0;
+  }
+  
+  .instabtn {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #insta {
+    width: 30px;
+  }
+  
