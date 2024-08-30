@@ -31,35 +31,9 @@ nav a {
     text-decoration: none;
 }
 /*SECTION 1*/
-.banner{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 2%;
-}
-h1{
-    font-size: 40px;
-    font-weight: 500;
-}
-.info-left{
-    max-width: 700px;
-}
-.time{
-    transform: translateY(40px);
-    object-fit: fill;
-    width: 800px;
-}
-.info-left img{
-    width: 500px;
-}
-.saiba{
-    border-radius: 14px;
-    padding: 10px 20px;
-    font-size: medium;
-    cursor: pointer;
-    border: none;
-    color: #fff;
-    background-color: #FF914D;
+/*BANNER*/
+.banner img{
+    width: 100%;
 }
 
 /*SECTION 2*/
@@ -76,6 +50,7 @@ h2{
     align-items: center;
     padding: 2% 15%;
     transform: translateY(15px);
+    text-align: center;
     border-radius: 24px;
 }
 .frase strong{
@@ -95,6 +70,7 @@ h4, h5{
 }
 .dif-text{
     font-size: 18px;
+    text-align: justify;
     max-width: 600px;
 }
 h3{
@@ -114,6 +90,10 @@ h3{
     z-index: 2;
     padding: 10%;
     padding-bottom: 0;
+    text-align: justify;
+}
+.bio h3{
+    text-align: left;
 }
 
 .bio img{

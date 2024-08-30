@@ -34,7 +34,9 @@ body {
     cursor: pointer;
     text-decoration: none;
   }
-  
+  .banner img{
+  width: 100%;
+  }
   /*form-header*/
   .form-header {
     padding: 2%;

@@ -33,56 +33,19 @@ nav a {
     text-decoration: none;
 }
 /*TITLE*/
-.texto1{
-    background-color: #D9DAFF;
-}
-.title{
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-}
-h1{
-    margin: 0;
-    align-self: flex-end;
-    padding: 0;
-    font-size: 80px;
-    font-weight: 600;
-}
-h1 strong{
-    color: #EDB96A;
-}
-#e{
-    color: #378B99;
-}
-
 /*BANNER*/
-.texto1{
-    padding: 5%;
-    margin-bottom: 0px;
-}
-.banner{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 0;
-    transform: translateY(-10%);
-}
 .banner img{
-    z-index: 1;
-    width: 80%;
-    max-height: 800px;
-    margin-left: 7%;
-    margin-bottom: 0;
+    width: 100%;
 }
 /*SECTION 1*/
 .qmsm{
     margin: 0;
+    padding: 2%;
     display: flex;
-    transform: translateY(-15%);
     align-items: center;
 }
 .qmsm img{
-    width: 700px;
+    width: 50%;
 }
 h2{
     font-size: 20px;
@@ -97,13 +60,12 @@ h2{
 /*SECTION 1*/
 .projeto{
     display: flex;
-    transform: translateY(-10%);
 
     padding: 2%;
     align-items: center;
 }
 .projeto img{
-    width: 700px;
+    width: 50%;
 }
 h2{
     font-size: 20px;
@@ -141,7 +103,6 @@ h2{
 
 .mvv{
     display: flex;
-    transform: translateY(-10%);
     flex-direction: column;
     align-items: center;
 }
@@ -171,7 +132,6 @@ h2{
     gap: 2%;
 }
 .transform{
-    transform: translateY(-5%);
     display: flex;
     flex-direction: column;
 }

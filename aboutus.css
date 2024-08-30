@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*fontes*/
+*{
+    font-family: Poppins;
+}
+
+body{
+    margin: 0;
+    background-color: #F7F5F9;
+    padding: 0;
+    overflow-x: hidden;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0
+}
+header{
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    text-decoration: none;
+    gap: 30px;
+}
+nav a {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+/*BANNER*/
+.banner img{
+    width: 100%;
+}
+/*HOW*/
+.how{
+    padding: 4%;
+    padding-bottom: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.how-content{
+    display: flex;
+    flex-direction: column;
+}
+.text-how{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 35px;
+    word-break: normal;
+    max-width: 900px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.text-how span{
+    color: #6B9859;
+}
+
+/*GALERIA*/
+.galeria-sect{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    align-items: center;
+}
+.galeria{
+    display: flex;
+    gap: 20px;
+}
+.galeria img{
+    max-width: 300px; 
+    width: 100%;
+    object-fit: cover;
+}
+.galeria-sect span{
+    color: #ed8342;
+}
+/*WRAPPER*/
+.int{
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+    align-items: center;
+}
+.int span{
+    color: #0097B2;
+}
+.integrantes{
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    justify-content: center;
+}
+.wrapper i{
+    height: 30px;
+    width: 30px;
+    background-color: #90b6bc;
+    text-align: center;
+    top: 50%;
+    transform: translateY(50%);
+    padding: 0.5%;
+    cursor: pointer;
+    position: absolute;
+    box-shadow: 0 3px 6px rgba(0,0,0, 0.23);
+    line-height: 30px;
+    border-radius: 50%;
+}
+.wrapper i:first-child{
+    left: -22px;
+}
+.wrapper i:last-child{
+    right: -22px;
+}
+.wrapper{
+    max-width: 1400px;
+    width: 100%;
+    position: relative;
+
+}
+.wrapper .carousel{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100%/3)-12px);
+    gap: 20px;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+.carousel :where(.card .img){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel .card{
+    list-style: none;
+    background: #FFF;
+    border-radius: 14px;
+    padding-bottom: 18px;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    flex-direction: column;
+}
+.card .imgAvatar img{
+    width: 140px;
+    height: 140px;
+    align-self: center;
+    display: flex;
+    border: 4px solid #FFF;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+/*REDES SOCIAIS*/
+.instagram span{
+    color: #EDB96A;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    align-self: center;
+}
+.instagram img{
+    max-width: 500px;
+    width: 100%;
+}
+.text-inta{
+    max-width: 500px;
+}
+.instagram button{
+    padding: 20px 30px;
+    font-size: medium;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    background-color: #EDB96A;
+}
+
+.instagram .instabtn,
+.instagram .instabtn span{
+    background-color: #e0dde3;
+    color: gray;
+    width: fit-content;
+    border-radius: 14px;
+    padding: 2%;
+}
+/*FOOTER*/
+footer{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #FFF;
+    background-color: #0097B2;
+    margin-top: 0;
+}
+.instabtn{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#insta{
+    width: 30px;
+}
+
+@media screen and (max-width:900px) {
+    .wrapper .carousel{
+        grid-auto-columns: calc((100%/2)-9px);
+    }
+}
+@media screen and (max-width:600px) {
+    .wrapper .carousel{
+        grid-auto-columns: 100%;
+    }
+}
+
+.carousel.dragging .card{
+    cursor: grab;
+    user-select: none;
+}
