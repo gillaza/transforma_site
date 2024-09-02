@@ -132,8 +132,10 @@ h3{
     color: #000;
 }
 
-.logowhite{
-    margin-top: 7%;
+.logowhite a{
+    margin-top: 70px;
+    text-decoration: none;
+    color: #FFF;
     margin-bottom: 5%;
     display: flex;
     flex-direction: column;

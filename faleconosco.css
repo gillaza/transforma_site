@@ -55,6 +55,25 @@ body {
     margin-bottom: 0;
     font-weight: 300;
   }
+
+  .email, .telefone{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .email img,
+  .telefone img{
+    width: 30px;
+  }
+  .mailbox{
+    display: flex;
+    background-color: #FFF;
+    border-radius: 24px;
+    width: fit-content;
+    padding: 20px;
+    gap: 50px;
+
+  }
   
   /*FORM*/
   form {
